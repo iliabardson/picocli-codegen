@@ -1,4 +1,4 @@
-# picoCLI - the mighty tiny Command Line Interpreter
+# picoCLI - a mighty tiny Command Line Interpreter
 
 A CLI framework in a single file, designed to be easy to include in your application _in source form_:
 allowing you to parse command line arguments without dragging in an external dependency.
@@ -7,7 +7,7 @@ How it works: annotate your class and picoCLI initializes it from the command li
 converting the input to strongly typed data. Any option prefix style works,
 with special support for POSIX-style short groupable options.
 Generates online "usage" help. Can be configured to make option matching case-insensitive,
-and supports abbreviated options when unambiguous.
+and supports abbreviated options when unambiguous. Works with Java 5 or higher.
 
 ##Example
 
